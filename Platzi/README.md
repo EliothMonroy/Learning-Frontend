@@ -1,6 +1,3 @@
-# Platzi-Frontend
-Code from Platzi courses about Frontend technologies
+# Curso de Desarrollo Web Online 2018
 
-In order:
-
-1.- Curso de Desarrollo Web Online 2018: https://platzi.com/clases/html5-css3/
+Platzi Course: [You can find it here](https://platzi.com/clases/html5-css3/)
