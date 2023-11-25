@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- What appears below the website name in google -->
+    <meta name="description" content="Web page content description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tell robots to rank the index page -->
+    <meta name="robots" content="index,follow" />
+    <title>Calendar</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">
+        <span>Name</span>
+        <input type="text" id="name" name="name" autocomplete="name" required />
+      </label>
+      <label for="email">
+        <span>Email</span>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          autocomplete="email"
+          required
+        />
+      </label>
+      <label for="country">
+        <span>Country</span>
+        <input
+          type="text"
+          id="country"
+          name="country"
+          autocomplete="country-name"
+          required
+        />
+      </label>
+      <label for="postalcode">
+        <span>Postal code</span>
+        <input
+          type="text"
+          id="postalcode"
+          name="postalcode"
+          autocomplete="postal-code"
+          required
+        />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
