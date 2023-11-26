@@ -4,15 +4,13 @@
   margin: 0;
 }
 
-body {
-  font-size: 20px;
+/* Change default html font size from 16px to 10px
+  so calculations are easier */
+html {
+  font-size: 62.5%;
 }
 
-/* Takes parent font size */
-.text-container {
-  font-size: 1.5em;
-}
-
-.text-container div {
-  font-size: 1.5em;
+/* Always takes parent html root (16px always) */
+p {
+  font-size: 1.6rem;
 }
