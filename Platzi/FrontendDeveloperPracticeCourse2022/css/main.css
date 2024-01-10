@@ -113,13 +113,6 @@ body {
   .logo {
     display: block;
   }
-
-  .secondary-button {
-    position: absolute;
-    bottom: 0;
-    width: inherit;
-    margin-bottom: 32px;
-  }
 }
 
 /* Email sent styles */
@@ -195,3 +188,8 @@ form a {
 }
 
 /* Edit Account styles */
+.value {
+  color: var(--very-light-pink);
+  font-size: var(--md);
+  margin: 8px 0 32px 0;
+}
