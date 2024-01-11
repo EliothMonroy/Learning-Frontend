@@ -245,3 +245,75 @@ form a {
     width: 140px;
   }
 }
+
+/* Desktop menu styles */
+.desktop-menu {
+  width: 100px;
+  height: auto;
+  border: 1px solid var(--very-light-pink);
+  border-radius: 8px;
+  padding: 20px 20px 0 20px;
+}
+
+.desktop-menu ul {
+  list-style: none;
+}
+
+.desktop-menu ul li {
+  text-align: end;
+  font-weight: bold;
+}
+
+.desktop-menu ul li:last-child {
+  padding-top: 20px;
+  border-top: 1px solid var(--very-light-pink);
+  font-weight: normal;
+}
+
+.desktop-menu ul li:last-child a {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+}
+
+.desktop-menu ul li a {
+  color: var(--black);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* Mobile menu styles */
+.mobile-menu {
+  padding: 24px;
+  font-size: var(--md);
+}
+
+.mobile-menu ul {
+  list-style: none;
+  margin-top: 24px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.mobile-menu ul:nth-child(1) {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu ul li {
+  margin-bottom: 24px;
+}
+
+.mobile-menu .mobile-menu-email {
+  font-size: var(--sm);
+  font-weight: 300;
+}
+
+.mobile-menu .mobile-menu-signout {
+  font-size: var(--sm);
+  font-weight: 300;
+  color: var(--hospital-green);
+}
